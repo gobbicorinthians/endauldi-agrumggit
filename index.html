@@ -11,15 +11,17 @@
 
     <style>
         body {
-            background-color: white;
-            color: black;
+            background-color: #8EA4D2;
+            color: #49516F;
             font-family: 'Poppins', sans-serif;
             margin: 20px;
+            display: grid;
+            justify-content: center;
         }
 
         main {
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            justify-content: center;
             gap: 20px;
             max-width: 500px;
         }
@@ -27,18 +29,35 @@
         form {
             display: grid;
             gap: 10px;
+            justify-content: center;
+            background-color: #6279B8;
+            border: 10px groove #8EA4D2;
+            box-shadow: 0px 8px 24px rgba(76, 159, 112, 1.0);
+            border-radius: 10px;
         }
 
         input, button {
             padding: 8px;
-            color: black;
+            color: #496F5D;
             font-family: inherit;
+            background-color: #4C9F70;
+            display: grid;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        button:hover {
+          background-color: #8EA4D2;
+          transition: 0.3s;
         }
 
         #resultado {
             display: flex;
             flex-direction: column;
             gap: 10px;
+            color: #49516F;
+            display: grid;
+            justify-content: center;
         }
     </style>
 </head>
